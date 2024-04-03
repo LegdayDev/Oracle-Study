@@ -95,11 +95,11 @@
     WHERE HIREDATE BETWEEN TO_DATE('19810501', 'YYYYMMDD') and TO_DATE('19811203', 'YYYYMMDD');
     ```
 - **여러 조건을 동시에 충족**해야 할 때 `IN()` 함수를 사용해야 한다.
-```sql
-SELECT ENAME, JOB, SAL
-FROM EMP
-WHERE JOB IN ('MANAGER', 'CLERK', 'SALESMAN');
-```
+  ```sql
+  SELECT ENAME, JOB, SAL
+  FROM EMP
+  WHERE JOB IN ('MANAGER', 'CLERK', 'SALESMAN');
+  ```
 - 조건의 반대 값을 구할려면 `NOT` 키워드를 사용한다.
     ```sql
     SELECT EMPNO, ENAME, SAL
