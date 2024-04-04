@@ -7,7 +7,13 @@
 > 4. Null 과 제약조건(진행중)
 
 ### [2일차](https://github.com/LegdayDev/Oracle-Study/blob/master/md/day02.md)
-> 1. [공부할 테이블 생성](https://github.com/LegdayDev/Oracle-Study/blob/master/sql/table_sample.sql)
+> 1. [예제 테이블 생성](https://github.com/LegdayDev/Oracle-Study/blob/master/sql/table_sample.sql)
 > 2. SELECT 문 학습
 > 3. ORDER BY 학습
 > 4. WHERE 조건절 학습
+
+### [3일차](https://github.com/LegdayDev/Oracle-Study/blob/master/md/day03.md)
+> 1. 내장함수 학습
+> 2. 관계연산자 학습
+> 3. 날짜 함수 학습
+> 4. 형 변환 함수 학습
