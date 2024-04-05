@@ -17,3 +17,11 @@
 > 2. 관계연산자 학습
 > 3. 날짜 함수 학습
 > 4. 형 변환 함수 학습
+
+### [4일차](https://github.com/LegdayDev/Oracle-Study/blob/master/md/day04.md)
+> 1. SQL 질의 내부흐름(간단)
+> 2. NULL 처리 내장함수
+> 3. 조건식 함수
+> 4. 다중함수
+> 5. Group By
+> 6. JOIN(ANSI / Oracle)
