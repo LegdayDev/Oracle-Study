@@ -265,11 +265,6 @@ FROM (SELECT MGR, COUNT(EMPNO) AS 사원수
       ORDER BY 사원수 DESC)
 WHERE ROWNUM <= 1;
 
--- 4. EMP 테이블에서 부서번호가 10인 사원수와 부서번호가 30일 사원수를 각각 출력하라
-SELECT COUNT(EMPNO) AS 부서번호_30_사원수
-FROM EMP
-WHERE DEPTNO = 30;
-
-SELECT COUNT(EMPNO) AS 부서번호_10_사원수
-FROM EMP
-WHERE DEPTNO = 10;
+-- 4. EMP 테이부서블에서 부서번호가 10인 사원수와 번호가 30일 사원수를 각각 출력하라
+SELECT COUNT(DECODE(DEPTNO, 10, 0)) 부서번호_10_사원수, COUNT(DECODE(DEPTNO, 30, 0)) 부서번호_30_사원수
+FROM EMP;

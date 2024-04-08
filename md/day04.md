@@ -243,15 +243,10 @@
         ORDER BY 사원수 DESC)
   WHERE ROWNUM <= 1;
   ```
-  ![img_6.png](../images/day04/img21.png)
+  ![img_6.png](../images/day04/img19.png)
 - 문제 4 : EMP 테이블에서 부서번호가 10인 사원수와 부서번호가 30일 사원수를 각각 출력하라
   ```sql
-  SELECT COUNT(EMPNO) AS 부서번호_30_사원수
-  FROM EMP
-  WHERE DEPTNO = 30;
-  
-  SELECT COUNT(EMPNO) AS 부서번호_10_사원수
-  FROM EMP
-  WHERE DEPTNO = 10;
+  SELECT COUNT(DECODE(DEPTNO, 10, 0)) 부서번호_10_사원수, COUNT(DECODE(DEPTNO, 30, 0)) 부서번호_30_사원수
+  FROM EMP;
   ```
-  ![img_4.png](../images/day04/img19.png)![img_5.png](../images/day04/img20.png)
+  ![img.png](../images/day04/img20.png)
