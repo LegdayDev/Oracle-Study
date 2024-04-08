@@ -25,3 +25,13 @@
 > 4. 다중함수
 > 5. Group By
 > 6. JOIN(ANSI / Oracle)
+
+### [5일차](https://github.com/LegdayDev/Oracle-Study/blob/master/md/day05.md)
+> 1. UPDATE , DELETE , DROP 학습
+> 2. VIEW 학습
+> 3. VIEW 학습
+> 4. 데이터 사전 학습
+> 5. 시퀀스 학습
+> 6. DDL문 학습
+> 7. 제약조건 학습
+> 8. 문제
