@@ -35,3 +35,6 @@
 > 6. DDL문 학습
 > 7. 제약조건 학습
 > 8. 문제
+
+### [6일차](https://github.com/LegdayDev/Oracle-Study/blob/master/md/day06.md)
+> 1. 문제 풀기 
